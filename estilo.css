@@ -7,3 +7,17 @@ body{
     background: yellow; width: 600px; height: 400px; margin: auto;
     position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
 }
+.postcard-header{overflow: hidden;
+}
+.postcard-header img{
+    max-height: 60px;float: right;
+}
+.postcard-body{overflow: hidden;}
+input{font-size: 36px;}
+.body-left{float: left;width: 50%;}
+.body-right{float: right; width: 50%;}
+.body-right input{display: block;}
+
+.postcard-footer{padding: 10px;text-align: center;}
+.postcard-footer input[type=submit]{border: none;border-bottom: 1px solid gray;}
+.postcard-body input[type=text]{border: none;border-bottom: 1px solid gray;}
