@@ -1,41 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width" />
+         <link rel="stylesheet" type="text/css" href="estilo.css">
+        <title>Postcard</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="estilo.css">
-
-</head>
-
-<body>
-    <div class="main-contenet">
-        <header>
-
-        </header>
-        <section>
-            <div class="postcard">
-                <div class="postcard-header"><h1>my postcard</h1> <img src="http://assets.breatheco.de/apis/img/icon/4geeks.png" alt=""></div>
-                <div class="postcard-body">
-                    <div class="body-right"><p>look how awesome this is a postcard that created using html5 and css3 during my 4 geeks academy course</p><p>this is so cool, cont wait to stardt doing more stuff</p></div>
-                    <input type="text" placeholder="some name">
-                    <input type="text" placeholder="some email">
-                    <input type="text" placeholder="some contenet">
-                    <div class="body-left"></div>
+    <body>
+         <div class="main-contenet">
+       
+        <div class="wrapper">
+           
+            <div class="headr">
+                
+                <div id="header1"> 
+                  <h1>
+                    My postcard
+                  </h1>
                 </div>
-                <div class="postcard-footer"> <input type="submit" value="send my postcard"></div>
+                  
+                <div id="header2">
+                    <img src="https://assets.breatheco.de/apis/img/icon/4geeks.png" alt="Logo4geeks">
+                </div>
+                
+            </div>
+           
+            <div class="section">
 
+                <div id="section-left">
+                  <p>
+                      Look how awesome! This is a postcard that I created using HTML5 and CSS3
+                      during my 4Geeks Academy Course!
+                  </p>
+                   <p>This is so cool, can't wait to start doing more stuff!</p>
+                </div>
 
+                <div id="section-right">
+                    <input type="text" name="nombre" id="nombre" placeholder="Some name"/>
+                    <input type="text" name="correo" id="correo" placeholder="Some email"/>
+                    <input type="text" name="comentario" id="comentario" placeholder="Some comment"/>
+                 </div>
 
             </div>
-
-        </section>
-        <footer>
-
-
-        </footer>
-    </div>
-</body>
-
+          
+            <div id="centrar">
+                <input type="submit" name="enviar" id="enviar" value="Send My Postcard"/> 
+            </div>
+                
+        </div>
+        </div>
+ 
+    </body>
 </html>
